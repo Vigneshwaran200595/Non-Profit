@@ -775,7 +775,7 @@ nav ul li a:hover{ color:#f30909; }
 @media (max-width: 768px){
 
   .hero-slider {
-    height: 120vh;
+    height: 100vh;
     padding: 30px 20px;
     overflow: hidden;
     border-radius: 20px;
