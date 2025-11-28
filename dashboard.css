@@ -324,3 +324,23 @@ body {
         font-size: 18px;
     }
 }
+
+@media (max-width: 480px) {
+
+    /* Remove sidebar push effect */
+    .main {
+        margin-left: 0;
+        width: 100%;
+        padding: 20px;
+    }
+
+    /* 2 cards per row — NO OVERLAP */
+    .cards {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 12px;
+    }
+
+    .card {
+        padding: 15px;
+    }
+}
