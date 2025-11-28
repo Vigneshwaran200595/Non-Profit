@@ -194,6 +194,28 @@ body {
     align-items: center;
 }
 
+html, body {
+    overflow-x: hidden !important;
+}
+
+.img-box {
+    overflow: hidden;
+}
+
+/* FIX overflow on mobile animation */
+@media (max-width: 768px) {
+    @keyframes floatImg {
+        0%   { transform: translateX(0px); }
+        50%  { transform: translateX(8px); }
+        100% { transform: translateX(0px); }
+    }
+
+    .error-img {
+        max-width: 180px;
+    }
+}
+
+
 </style>
 
 <!-- ICONS (OPTIONAL) -->
