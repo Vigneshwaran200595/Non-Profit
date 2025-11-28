@@ -518,6 +518,50 @@ nav ul li a:hover{ color:#f30909; }
     }
 }
 
+@media(max-width:768px){
+
+    .dropdown-header{
+        display:flex;
+        justify-content:center;     /* Center everything */
+        align-items:center;
+        padding:12px 20px;
+        width:100%;
+        position:relative;
+    }
+
+    /* Center HOME text */
+    .dropdown-header a{
+        flex:0;
+        margin:auto;
+        text-align:center;
+        color:#fff;
+        font-size:18px;
+    }
+
+    /* Arrow EXACTLY on right side - NO SHIFT */
+    .dropdown-toggle{
+        position:absolute;
+        right:130px;               /* Always right side */
+        font-size:18px;
+        color:#fff;
+        margin:0 !important;      /* Remove old right margin */
+        padding:0;
+        cursor:pointer;
+    }
+
+    /* Dropdown list full width */
+    .dropdown-menu{
+        position:relative !important;
+        width:100% !important;
+        background:#c72828;
+        display:none !important;
+        border-radius:0;
+        padding:0;
+        margin:0;
+    }
+
+}
+
 
 .hero-slider{
     position:relative;
